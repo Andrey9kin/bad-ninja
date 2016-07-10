@@ -453,7 +453,9 @@ body {
   color: #222222;
   font-family: "Noto Serif", serif;
   font-weight: 400;
-  transition: all 0.3s ease; }
+  transition: all 0.3s ease;
+  overflow-x: hidden;
+}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto", sans-serif;
