@@ -1,4 +1,10 @@
-{{ partial "head" . }}
-{{ partial "header" . }}
-{{ partial "article-list" . }}
-{{ partial "footer" . }}
+<!doctype html>
+<html class="no-js">
+  {{ partial "head" . }}
+  <body>
+    {{ partial "header" . }}
+    {{ partial "article-list" . }}
+    {{ partial "footer" . }}
+    {{ partial "scripts" . }}
+  </body>
+</html>

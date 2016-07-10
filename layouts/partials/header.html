@@ -1,22 +1,19 @@
-        <!--[if lt IE 8]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        <header class="site-header">
-          <div>
-            <video class="site-header" autoplay  poster="images/desktop-background.jpeg" id="bgvid" loop>
-              <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
-              <source src="video/background-desktop.webm" type="video/webm">
-              <source src="video/background-desktop.mp4" type="video/mp4">
-            </video>
+<!--[if lt IE 8]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+<header class="site-header">
 
-            <div style="transform: translateY(-135%); background: rgba(0,0,0,0.3); float: right; height: 25%; width: 33%;" id="maillist">
-              <script>
-                document.getElementById("open-popup").addEventListener("click", function (ev) {
-                  ev.preventDefault(); // So the click does not follow href
-                  window.open("popup.html");
-                });
-              </script>
-              <button id="open-popup">Subscribe to our mailing list</button>
-            </div>
-          </div>
-        </header>
+    <video autoplay loop poster="images/desktop-background.jpeg">
+        <!--
+          WCAG general accessibility recommendation is that media such as background video
+          play through only once. Loop turned on for the purposes of illustration; if
+          removed, the end of the video will fade in the same way created by pressing
+          the "Pause" button
+        -->
+        <source src="video/background-desktop.webm" type="video/webm">
+        <source src="video/background-desktop.mp4" type="video/mp4">
+    </video>
+
+    {{ partial "newsletter-holder" . }}
+
+</header>

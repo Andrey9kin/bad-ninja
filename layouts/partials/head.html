@@ -1,18 +1,16 @@
-<!doctype html>
-<html class="no-js">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>{{ if .IsNode}}{{ .Title }} &middot; {{end}}{{ .Site.Title }}</title>
-        <meta name="author">
-        <meta name="description" content="{{ .Site.Params.site_description }}">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        {{ .Hugo.Generator }}
-        <link href='//fonts.googleapis.com/css?family=Roboto:400,300,700|Noto+Serif:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="{{ .Site.BaseURL }}css/styles.css">
-        <link rel="icon" href="{{ .Site.BaseURL }}favicon.ico">
-        <link rel="apple-touch-icon" href="{{ .Site.BaseURL }}apple-touch-icon.png" />
-        <link rel="stylesheet" href="{{ .Site.BaseURL }}css/highlightjs/monokai.css">
-        <script src="{{ .Site.BaseURL }}js/vendor/modernizr-2.8.0.min.js"></script>
-    </head>
-    <body>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{ if .IsNode}}{{ .Title }} &middot; {{end}}{{ .Site.Title }}</title>
+    <meta name="author">
+    <meta name="description" content="{{ .Site.Params.site_description }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {{ .Hugo.Generator }}
+    <link href='//fonts.googleapis.com/css?family=Roboto:400,300,700|Noto+Serif:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/styles.css">
+    <link rel="icon" href="{{ .Site.BaseURL }}favicon.ico">
+    <link rel="apple-touch-icon" href="{{ .Site.BaseURL }}apple-touch-icon.png" />
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/highlightjs/monokai.css">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/mailchimp.css">
+    <script src="{{ .Site.BaseURL }}js/vendor/modernizr-2.8.0.min.js"></script>
+</head>
