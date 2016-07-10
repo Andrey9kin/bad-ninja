@@ -1,0 +1,172 @@
+#mc_embed_signup {
+
+  clear           : left;
+  font            : 14px Helvetica, Arial, sans-serif;
+
+}
+
+
+@font-face {
+  font-family: 'BrandonGrotesque-Bold';
+  src: url('BrandonGrotesque-Bold.eot?#iefix') format('embedded-opentype'),  url('BrandonGrotesque-Bold.otf')  format('opentype'),
+	     url('BrandonGrotesque-Bold.woff') format('woff'), url('BrandonGrotesque-Bold.ttf')  format('truetype'), url('BrandonGrotesque-Bold.svg#BrandonGrotesque-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.mailchimp-holder * {
+
+  box-sizing      : border-box;
+  font-family     : 'BrandonGrotesque-Bold', sans-serif;
+}
+
+.mailchimp-holder {
+
+  position        : absolute;
+  right           : 0;
+  bottom          : 0;
+  background      : url('../images/background-newsletter.png') top left no-repeat;
+  background-size : cover;
+  width           : 50vw;
+  height          : 17vw;
+
+}
+
+.mailchimp-holder .form-group {
+
+  position        : absolute;
+  bottom          : 1vw;
+  right           : 2.1vw;
+
+}
+
+.mailchimp-holder .headings {
+
+  position        : absolute;
+  text-align      : left;
+  left            : 53%;
+  max-width       : calc(47% - 2.1vw);
+  bottom          : 30%;
+
+}
+
+.mailchimp-holder .headings h1,
+.mailchimp-holder .headings h1,
+.mailchimp-holder .headings label {
+
+  font-size       : 14px;
+  color           : #f3ecd0;
+  font-weight     : bold;
+  text-transform  : uppercase;
+  line-height     : 20px;
+  margin          : 0;
+
+}
+
+.mailchimp-holder .form-group input {
+
+  float           : left;
+  margin-left     : 5px;
+  border          : 0;
+  border-radius   : 4px;
+  height          : 3.4vw;
+  width           : 10.5vw;
+  text-transform  : uppercase;
+  outline         : none;
+  background      : url('../images/paper-plane.png') #ffffff 1.2vw center no-repeat;
+  background-size : 2vw;
+  color           : #666666;
+
+}
+
+.mailchimp-holder .form-group input[type=email] {
+
+  width           : 30vw;
+  padding         : 0 4.2vw;
+
+}
+
+.mailchimp-holder .form-group input[type=submit] {
+
+  width           : 10vw;
+  color           : #ffffff;
+  background      : #68c95d;
+
+}
+
+@media only screen and (min-width: 1400px) {
+
+  .mailchimp-holder .headings h1,
+  .mailchimp-holder .headings h1,
+  .mailchimp-holder .headings label {
+
+    font-size       : 18px;
+    line-height     : 26px;
+
+  }
+
+  .mailchimp-holder .form-group input {
+
+    font-size       : 20px;
+
+  }
+
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+
+  .mailchimp-holder .headings h1,
+  .mailchimp-holder .headings h1,
+  .mailchimp-holder .headings label {
+
+    font-size       : 16px;
+    line-height     : 26px;
+
+  }
+
+  .mailchimp-holder .form-group input {
+
+    font-size       : 18px;
+
+  }
+
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) {
+
+  .mailchimp-holder .headings h1,
+  .mailchimp-holder .headings h1,
+  .mailchimp-holder .headings label {
+
+    font-size       : 14px;
+    line-height     : 20px;
+
+  }
+
+  .mailchimp-holder .form-group input {
+
+    font-size       : 14px;
+
+  }
+
+}
+
+@media only screen and (min-width: 800px) and (max-width: 999px) {
+
+  .mailchimp-holder .headings h1,
+  .mailchimp-holder .headings h1,
+  .mailchimp-holder .headings label {
+
+    font-size       : 12px;
+    line-height     : 20px;
+
+  }
+
+  .mailchimp-holder .form-group input {
+
+    font-size       : 12px;
+
+  }
+
+}

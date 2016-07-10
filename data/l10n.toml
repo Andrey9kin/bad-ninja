@@ -27,3 +27,9 @@
 [page_not_found]
     title = "404 - page not found"
     subtitle = "The content you're looking for doesn't seem to exist."
+
+[mailchimp]
+    placeholder_input_email = "E-mail address"
+    label_input_email_first_line = "The automation blog"
+    label_input_email_second_line = "Sign up here for our newsletter"
+    label_input_submit = "Subscribe"
