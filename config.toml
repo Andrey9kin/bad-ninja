@@ -1,4 +1,4 @@
-baseUrl = "http://build-and-release.ninja"
+baseUrl = "https://janneklouman.github.io/build-and-release/"
 languageCode = "en-us"
 title = "Build and Release Ninja"
 
