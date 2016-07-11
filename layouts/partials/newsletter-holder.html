@@ -12,12 +12,14 @@
       </div>
       <div class="form-group">
         <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="{{ .Site.Data.l10n.mailchimp.placeholder_input_email }}" required>
+        <input type="submit" value="{{ .Site.Data.l10n.mailchimp.label_input_submit }}" name="subscribe" id="mc-embedded-subscribe" class="button">
+        
         <!--
           Real people should not fill this in and expect good
           things - do not remove this or risk form bot signups
         -->
         <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_097fe6106fc131c23d9954acb_b4d0b6f901" tabindex="-1" value=""></div>
-        <div class="clear"><input type="submit" value="{{ .Site.Data.l10n.mailchimp.label_input_submit }}" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+        <div class="clear"></div>
       </div>
     </div>
   </form>
