@@ -23,6 +23,7 @@ disqusShortname = "andreydevyatkin"
 
   # Enable gogle analytics by entering your tracking code
   google_analytics = ""
+  addthis = "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4faab9ba3e757098"
 
 [social]
   # Add your social network accounts to the profile section on the left
