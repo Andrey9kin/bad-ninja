@@ -724,7 +724,7 @@ body.post-template .site-header h2 .logo {
   margin: -45px 0 0 -37px;
   background-size: 90px 74px; }
 
-@media only screen and (min-width: 720px) {
+@media only screen and (min-width: 768px) {
   .container {
     width: 100%; }
 
@@ -732,7 +732,7 @@ body.post-template .site-header h2 .logo {
       font-size: 56px;
   }
 }
-@media only screen and (max-width: 719px) {
+@media only screen and (max-width: 768px) {
   .container {
     width: 90%;
     padding-top: 25px; }
