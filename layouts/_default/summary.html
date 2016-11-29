@@ -2,11 +2,12 @@
     {{ if .Params.icon }}
         <img class="post-icon" src="{{ .Site.BaseURL }}/images/{{ .Params.icon }}" alt="{{ .Params.icon }}">
     {{ end }}
+    <div class="addthis_inline_share_toolbox" data-url="{{ .Permalink }}" data-title="{{ .Title }}"></div>
     <div class="post-content">
         {{ partial "article-header" . }}
         <p class="post-text">
             {{ if .Params.image }}
-            <img class="post-image" src="{{ .Site.BaseURL }}/images/{{ .Params.image }}" alt="{{ .Params.image }}">
+            <img class="post-image m-t-5" src="{{ .Site.BaseURL }}/images/{{ .Params.image }}" alt="{{ .Params.image }}">
             {{ end }}
 
             {{ printf "%s" .Summary | markdownify }}&hellip;
