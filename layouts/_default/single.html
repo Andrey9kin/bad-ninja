@@ -4,6 +4,9 @@
     <main role="main" class="content">
         <article class="post">
             {{ partial "article-header" . }}
+            {{ if .Params.image }}
+            <img class="post-image post-image--right m-t-20" src="{{ .Site.BaseURL }}/images/{{ .Params.image }}" alt="{{ .Params.image }}">
+            {{ end }}
             {{ .Content}}
             {{ partial "article-share" . }}
         </article>
@@ -13,9 +16,6 @@
         </div>
     </main>
     {{ partial "author" . }}
-    <aside class="author">
-        <a class="btn home" href="{{ .Site.BaseURL }}" title="{{ .Site.Data.l10n.article.back_to_home }}">&laquo; {{ .Site.Data.l10n.article.back_to_home }}</a>
-    </aside>
 </div>
 
 {{ partial "footer" . }}
