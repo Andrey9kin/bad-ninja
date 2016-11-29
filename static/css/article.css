@@ -1,6 +1,20 @@
 .post {
 
     border-bottom       : 0;
+    position            : relative;
+    min-height          : 355px;
+}
+
+.post p {
+
+    font-family         : 'Roboto', sans-serif;
+
+}
+
+.post:last-of-type {
+
+    margin-bottom       : 0;
+    padding-bottom      : 20px;
 
 }
 
@@ -22,6 +36,13 @@
     float               : left;
     max-width           : 40%;
     margin              : 0 20px 20px 0;
+
+}
+
+.post .post-image--right {
+
+    float               : right;
+    margin              : 0 0 20px 20px;
 
 }
 
@@ -61,6 +82,7 @@
 
     float               : left;
     width               : 55px;
+    margin-top          : 15px;
 
 }
 
@@ -70,6 +92,31 @@
     text-transform      : uppercase;
     color               : #393029;
 
+}
+
+.pagination {
+
+    margin-bottom       : 30px;
+
+}
+
+.counter {
+
+    font-family         : 'BrandonGrotesque-Bold', sans-serif;
+    text-transform      : uppercase;
+    color               : #393029;
+
+}
+
+.back-button {
+
+    background-color    : #ffffff;
+    margin-top          : 20px;
+    font-family         : 'BrandonGrotesque-Bold', sans-serif;
+    text-transform      : uppercase;
+    color               : #393029;
+
+}
 
 .addthis_inline_share_toolbox {
 
