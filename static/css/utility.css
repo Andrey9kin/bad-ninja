@@ -11,3 +11,34 @@
     clear           : both;
 
 }
+
+a.link-without-effects {
+
+    text-decoration : none;
+    color           : inherit;
+
+}
+
+a.link-without-effects:hover {
+
+    color           : inherit;
+
+}
+
+.m-t-5 {
+
+    margin-top      : 5px !important;
+
+}
+
+.m-t-10 {
+
+    margin-top      : 10px !important;
+
+}
+
+.m-t-20 {
+
+    margin-top      : 20px !important;
+
+}

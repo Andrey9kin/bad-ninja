@@ -4,7 +4,7 @@
     </svg>
     <div class="author-inner">
         <img class="profile-image" src="{{ .Site.BaseURL }}{{ .Site.Params.avatar }}" alt="{{ .Site.Params.site_author }}" />
-        <h2 class="profile-title">{{ .Site.Params.title }}</h2>
+        <h2 class="profile-title"><a href="{{ .Site.BaseURL }}" class="link-without-effects">{{ .Site.Params.title }}</a></h2>
         <h3 class="profile-sub-title">{{ .Site.Params.subtitle }}</h3>
         {{ partial "social" . }}
         <p class="profile-description">{{ .Site.Data.l10n.author.presentation }}</p>

@@ -1,4 +1,4 @@
 <footer class="main-footer">
-    <img src="{{ .Site.BaseURL }}images/logo-footer.png" alt="logo">
+    <a href="{{ .Site.BaseURL }}" class="link-without-effects"><img src="{{ .Site.BaseURL }}images/logo-footer.png" alt="logo"></a>
     <span class="uc">{{ .Site.Data.l10n.footer.copyright | markdownify }} {{ .Now.Format "2006" }}</span>
 </footer>
