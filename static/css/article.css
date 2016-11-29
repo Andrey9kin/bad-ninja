@@ -3,6 +3,7 @@
     border-bottom       : 0;
     position            : relative;
     min-height          : 355px;
+    padding-bottom      : 30px;
 }
 
 .post p {
