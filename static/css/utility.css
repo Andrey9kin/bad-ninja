@@ -25,6 +25,15 @@ a.link-without-effects:hover {
 
 }
 
+
+@media only screen and (min-width: 520px) {
+
+    .hidden-md-up {
+        display: none;
+    }
+
+}
+
 .m-t-5 {
 
     margin-top      : 5px !important;

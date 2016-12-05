@@ -33,11 +33,44 @@
 
 }
 
+@media only screen and (max-width: 520px) {
+
+    div.mailchimp-holder {
+
+        position        : relative;
+        display         : block;
+        background      : #393029;
+        width           : 100vw;
+        padding         : 30px;
+        height          : auto;
+
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+
+    }
+
+}
+
 .mailchimp-holder .form-group {
 
   position        : absolute;
   bottom          : 1vw;
   right           : 2.1vw;
+
+}
+
+@media only screen and (max-width: 520px) {
+
+    .mailchimp-holder .form-group {
+
+        position        : relative;
+        bottom          : auto;
+        right           : auto;
+        display         : block;
+        margin-top      : 10px;
+
+    }
 
 }
 
@@ -48,6 +81,20 @@
   left            : 53%;
   max-width       : calc(47% - 2.1vw);
   bottom          : 30%;
+
+}
+
+@media only screen and (max-width: 520px) {
+
+    .mailchimp-holder .headings {
+
+        position        : relative;
+        text-align      : left;
+        left            : auto;
+        max-width       : inherit;
+        bottom          : auto;
+
+    }
 
 }
 
@@ -80,10 +127,41 @@
 
 }
 
+@media only screen and (max-width: 520px) {
+
+    .mailchimp-holder .form-group input {
+
+        float           : left;
+        margin-left     : 0;
+        border          : 0;
+        border-radius   : 4px;
+        height          : 32px;
+        text-transform  : uppercase;
+        outline         : none;
+        background      : url('../images/paper-plane.png') #ffffff 1.2vw center no-repeat;
+        background-size : 15px;
+        color           : #666666;
+
+    }
+
+}
+
 .mailchimp-holder .form-group input[type=email] {
 
   width           : 30vw;
   padding         : 0 4.2vw;
+
+}
+
+@media only screen and (max-width: 520px) {
+
+    .mailchimp-holder .form-group input[type=email] {
+
+        width           : 48vw;
+        padding         : 5px 5px 5px 30px;
+        margin-right    : 10px;
+
+    }
 
 }
 
@@ -92,6 +170,27 @@
   width           : 10vw;
   color           : #ffffff;
   background      : #68c95d;
+
+}
+
+@media only screen and (max-width: 520px) {
+
+    .mailchimp-holder .form-group input[type=submit] {
+
+        width           : 30vw;
+        padding         : 5px;
+
+    }
+
+}
+
+@media only screen and (max-width: 520px) {
+
+    .site-logo img {
+
+        margin-bottom   : 20px;
+
+    }
 
 }
 
