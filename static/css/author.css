@@ -27,6 +27,16 @@
 
 }
 
+@media only screen and (max-width: 520px) {
+
+    .author {
+
+        width           : calc(100vw - 80px);
+
+    }
+
+}
+
 .author-before {
 
     position        : absolute;
