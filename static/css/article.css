@@ -26,6 +26,17 @@
 
 }
 
+@media only screen and (max-width: 520px) {
+
+    .post-content {
+
+        margin-left         : 50px;
+        font-family         : sans-serif;
+
+    }
+
+}
+
 .post-text {
 
     float               : left;
@@ -53,6 +64,18 @@
     color               : #393029;
 
 }
+
+@media only screen and (max-width: 520px) {
+
+    .post h2.post-title a {
+
+        line-height         : 1.2;
+        font-size           : 30px;
+
+    }
+
+}
+
 .post h2.post-title {
 
     margin-bottom       : 0;
@@ -79,11 +102,33 @@
 
 }
 
+@media only screen and (max-width: 520px) {
+
+    .post-info .post-posted {
+
+        font-size           : 14px;
+
+    }
+
+}
+
 .post-icon {
 
     float               : left;
     width               : 55px;
     margin-top          : 15px;
+
+}
+
+@media only screen and (max-width: 520px) {
+
+    .post-icon {
+
+        float               : left;
+        width               : 35px;
+        margin-top          : 7px;
+
+    }
 
 }
 
@@ -126,5 +171,20 @@
     text-align          : center;
     position            : absolute;
     top                 : 114px;
+
+}
+
+@media only screen and (max-width: 520px) {
+
+    .addthis_inline_share_toolbox {
+
+        float               : left;
+        width               : 35px;
+        text-align          : center;
+        position            : absolute;
+        top                 : 88px;
+        margin-left         : -5px;
+
+    }
 
 }
